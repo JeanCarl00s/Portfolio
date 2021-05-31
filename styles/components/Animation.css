@@ -1,0 +1,14 @@
+@keyframes aparecer {
+    from {
+        image-rendering: transparent;
+        background-color: transparent;
+        color: transparent;
+        image: transparent;
+    }
+    to {
+        image-rendering: normal;
+        background-color: normal;
+        color: normal;
+        image: normal;
+    }
+}

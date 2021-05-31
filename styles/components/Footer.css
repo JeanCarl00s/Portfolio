@@ -1,0 +1,24 @@
+.BottomBar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+
+    background-color: #262626;
+    border: 0;
+
+    margin-top: 200px;
+}
+.BottomBar p {
+    font: 'Inter' sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #635F5F;
+
+    text-decoration: none;  
+}
+.BottomBar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}

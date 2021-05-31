@@ -1,0 +1,165 @@
+/* Grid*/
+
+.GridFrame {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 80px;
+    padding-top: 50px;
+
+    border: 0px;
+}
+.box1 {
+    display: flex;
+    justify-self: center;
+    grid-column-start: 2;  /* Qual coluna comeca*/
+    grid-column-end: 3;  /* Qual coluna termina */
+    grid-row-start: 1;  /* Qual linha comeca*/
+    grid-row-end: 2;  /* Qual linha termina*/
+
+    background-color: #262626;
+
+}
+.box2 {
+    display: flex;
+    justify-self: center;
+    grid-column-start: 3;  /* Qual coluna comeca*/
+    grid-column-end: 4;  /* Qual coluna termina */
+    grid-row-start: 1;  /* Qual linha comeca*/
+    grid-row-end: 2;  /* Qual linha termina*/
+
+    background-color: #262626;
+}
+.box3 {
+    display: flex;
+    justify-self: center;
+    grid-column-start: 2;  /* Qual coluna comeca*/
+    grid-column-end: 3;  /* Qual coluna termina */
+    grid-row-start: 2;  /* Qual linha comeca*/
+    grid-row-end: 3;  /* Qual linha termina*/
+
+    background-color: #262626;
+}
+.box4 {
+    display: flex;
+    justify-self: center;
+    grid-column-start: 3;  /* Qual coluna comeca*/
+    grid-column-end: 4;  /* Qual coluna termina */
+    grid-row-start: 2;  /* Qual linha comeca*/
+    grid-row-end: 3;  /* Qual linha termina*/
+
+    background-color: #262626;
+}
+
+
+
+/* styles*/
+
+.GridFrame {
+    width: 100%;
+    height: 1000px;
+}
+
+.ContainerImage {
+    width: 80%;
+    
+}
+/* Assets do computador*/
+.AssetsMac {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    margin-top: 10px;
+    
+}
+/* Imagem de fundo do computador*/
+.BackgroundImage {
+    width: 460px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 70px;
+    
+}
+.botao {
+    width: 160px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    border-radius: 7px;
+    background-color: #4D66BE;  
+}
+.botao:hover {
+    background-color: #32449F;
+}
+.botao a {
+    font: 'Inter' sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #262626;
+}
+.title {
+    width: 100%;
+}
+.title p {
+    font: 'Inter' sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 0;
+}
+.title h1 {
+    font: 'Inter' sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffff;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.titledesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titledesc p {
+    font: 'Inter' sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #C4C4C4;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.box1 {
+    width: 100%;
+    height: 400px;
+    background-color: #262626 ;
+    border-radius: 10px;
+}
+.box2 {
+    width: 100%;
+    height: 400px;
+    background-color: #262626 ;
+    border-radius: 10px;
+}
+.box3 {
+    width: 100%;
+    height: 400px;
+    background-color: #262626 ;
+    border-radius: 10px;
+}
+.box4 {
+    width: 100%;
+    height: 400px;
+    background-color: #262626 ;
+    border-radius: 10px;
+}

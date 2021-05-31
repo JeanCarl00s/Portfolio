@@ -1,0 +1,184 @@
+/* Grid*/
+
+.BoxGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding-top: 50px;
+
+    border: 0px;
+}
+.ContainerMac {
+    
+    grid-column-start: 1;  /* Qual coluna comeca*/
+    grid-column-end: 2;  /* Qual coluna termina */
+    grid-row-start: 1;  /* Qual linha comeca*/
+    grid-row-end: 2;  /* Qual linha termina*/
+}
+.ContainerIphone{
+    display: flex;
+    align-items: center;
+    grid-column-start: 3;  /* Qual coluna comeca*/
+    grid-column-end: 4;  /* Qual coluna termina */
+    grid-row-start: 1;  /* Qual linha comeca*/
+    grid-row-end: 4;  /* Qual linha termina*/
+}
+.ContainerMacBook {
+    grid-column-start: 2;  /* Qual coluna comeca*/
+    grid-column-end: 4;  /* Qual coluna termina */
+    grid-row-start: 1;  /* Qual linha comeca*/
+    grid-row-end: 3;  /* Qual linha termina*/
+}
+.ContainerDesc {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 2;  /* Qual coluna comeca*/
+    grid-column-end: 3;  /* Qual coluna termina */
+    grid-row-start: 1;  /* Qual linha comeca*/
+    grid-row-end: 2;  /* Qual linha termina*/
+}
+.ContainerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;  /* Qual coluna comeca*/
+    grid-column-end: 4;  /* Qual coluna termina */
+    grid-row-start: 2;  /* Qual linha comeca*/
+    grid-row-end: 3;  /* Qual linha termina*/
+}
+
+.ContainerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;  /* Qual coluna comeca*/
+    grid-column-end: 4;  /* Qual coluna termina */
+    grid-row-start: 3;  /* Qual linha comeca*/
+    grid-row-end: 4;  /* Qual linha termina*/
+}
+
+.Container {
+    width: 100%;
+    height: 1000px;
+}
+.Container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffff;
+
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 150px;
+}
+.Container >p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffff;
+
+    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.BoxGrid {
+    width: 1600px;
+    height: 800px;
+
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #262626;
+}
+.ContainerMac {
+    width: 600px;
+    height: 400px;;
+}
+.ContainerMacBook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContainerImage {
+    width: 70%;
+}
+/* Assets do computador*/
+.AssetsMac {
+    position: absolute;
+    width: 550px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.AssetsMacBook {
+    position: absolute;
+    width: 600px;
+
+}
+/* Imagem de fundo do computador*/
+.BackgroundMac {
+    width: 510px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.BackgroundMacBook {   
+    width: 450px;
+    height: 300px;
+    margin-top: 10px;
+}
+.ContainerIphone {
+    width: 400px;
+    height: 800px;
+}
+.AssetsIphone {
+    position: absolute;
+    width: 400px;
+}
+.BackgroundIphone {
+    width: 260px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.ContainerDesc {
+    width: 500px;
+}
+.ContainerDesc p {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffff;
+    
+}
+.ContainerText {
+    width: 1000px;
+    height: 200px;
+}
+.ContainerText p {
+    font: 'Inter' sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    
+    margin-top: 40px;
+}
+
+
+.Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 30px;
+    background-color: #4D66BE;
+
+    border-radius: 7px;;
+}
+.Button a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #262626;
+}
+.Button:hover {
+    background-color: #32449F;
+}
