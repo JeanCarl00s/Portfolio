@@ -1,9 +1,3 @@
-# Portfólio
-My Website portfólio create to show my projects.
+# WebGithub
 
-<a href="https://jeancarl00s.github.io/WebGithub-1.0/"> Version 1.0 </a>
-
-### Technology
-- JavaScript
-- Css
-- HTML
+Site criado com intuito de apresentar meu portifolio em um layout diferente do github

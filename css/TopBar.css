@@ -1,0 +1,44 @@
+.TopBar {
+    width: 900px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff;
+    border-radius: 15px; 
+}
+.TopBar img{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    
+    position: relative;
+
+    margin-left: 20px;
+}
+.TopBar p{
+    font-size: 40px;
+    font-weight: 800;
+    color:#666666;
+
+    margin-left: auto;
+}
+
+.TopBar a{
+    font-size: 1rem;
+    color: #666666 ; 
+    padding-top: 170px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.TopBar >a{
+    font-size: 1rem;
+    color: #666666 ; 
+    padding-top: 170px;
+    padding-left: 0px;
+    text-decoration: none;
+    
+}
