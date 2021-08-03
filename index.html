@@ -9,7 +9,7 @@
     
 
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/pages/Home.css">
+    <link rel="stylesheet" href="./styles/Home.css">
     <link rel="stylesheet" href="./styles/components/Topbar.css">
     <link rel="stylesheet" href="./styles/components/Footer.css">
     <link rel="stylesheet" href="./styles/components/Animation.css">
@@ -18,103 +18,113 @@
 
 </head>
 <body>
-    
     <div class="GridContainer">
         
         <div class="TopBarContainer">
-            <img class="IconGit"src="image/favicon.png"alt="Github">
+            <div class="GitContainer">
+                <img class="IconGit" src="./assets/favicon.png" alt="Github">
+            </div>
             <div class="Topbar"> 
                 
-                <div class="nameHome"
-                style="border-bottom:3px solid #635F5F"
-                >
-                    <a style="color:#635F5F" href=""> Home </a>
+                <div class="names" style="border-bottom:3px solid opacity 0.5">
+                    <a style="opacity: 0.5" href=""> 
+                        Home 
+                    </a>
                 </div>
-                <div class="nameProjetos">
-                    <a href="./pages/projects.html"> Projetos</a>
+                <div class="names">
+                    <a href="./pages/Projetos"> 
+                        Projetos
+                    </a>
                 </div>
-                <div class="nameContato">
-                    <a href="./pages/Contato.html"> Contato</a>
+                <div class="names">
+                    <a href="./pages/Contato"> 
+                        Contato
+                    </a>
                 </div>
                 
+            </div>
+            <div class="buttonContainer">
+                <div class="toggle">
+                    <input  id="switch" type="checkbox" name="theme" class="toggle-dark-mode"> 
+                    <label for="switch">
+                        <img class="NightIcon" src="./assets/GroupDark.png" alt="">
+                        <img class="DayICon" src="./assets/GroupWhite.png" alt=""> 
+                    </label>
+                </div>
             </div>
         </div>
 
         <div class="intro">
             <div class="bar">
-                <div style="background-color: #EE3C3C; animation: aparecer 2s normal"></div>
-                <div style="background-color: #DADD39; animation: aparecer 2s normal;"></div>
-                <div style="background-color: #59C15E; animation: aparecer 2s normal;"></div>
+                <div style="background-color: #42378f;background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);animation: aparecer 2s normal"></div>
+                <div style="background-color: #fbb034;background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); animation: aparecer 2s normal;"></div>
+                <div style="background-color: #00b712; background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%); animation: aparecer 2s normal;"></div>
             </div>
-            <div class="ContainerText">
-                <h1> Bem Vindo </h1>
-                <p> Olá eu sou <br/>
-                    Jean Carlos tenho 17 anos e estudo programação<br/> 
-                    sou de Louveira - SP,<br/> 
-                    estou a proucura do primeiro emprego<br/>
-                </p>
-                
+            <div class="TextContainer">
+                <h1 class="TextTags">&lt;View&gt;</h1>
+                <div>
+                    <h1 class="TextTags">&lt;Text&gt;</h1>
+                    <p>Bem Vindo <br/>
+                    Eu sou
+                    <span style="color: #4D66BE;">
+                        &lt;Jean Carlos/&gt;
+                    </span></br>
+                    Estudante de Programacao</p>
+                    <h1 class="TextTags">&lt;/Text&gt;</h1>
+                </div>  
+                <h1 class="TextTags">&lt;/View&gt;</h1>
             </div>
-            
+            <div class="ContainerImage">
+                <img src="./assets/EstudanteIMG.png" alt="Estudante">
+            </div>   
         </div>
 
-        <div class="Habilidades">
-            <div class="textos">
+        <div id="content" class="Habilidades">
+            <div class="ContainerText">
                 <h1>Habilidades</h1>
                 <p> Tecnologias que utilizo <br/>
                     no meu portfólio.
             </div>
-            <div class="imagens">
-                <img src="./image/javascriptImage.jpg" alt="javascript">
-                <img src="./image/typescript-1174965.png" alt="TypeScript">
-                <img src="./image/react-1-282599.png" alt="React">
-
-                <img src="./image/174854.png" alt="HTML">
-                <img src="./image/141-1415372_css3-icon-png.png" alt="">
+            <div class="ContainerImagens">
+                <img src="./assets/IconJS.jpg" alt="javascript" >
+                <img src="./assets/IconTS.png" alt="TypeScript">
+                <img src="./assets/IconReactnative.png" alt="ReactNative">
+                <img src="./assets/IconHTML.png" alt="HTML">
+                <img src="./assets/IconCSS.png" alt="CSS">
             </div>
         </div>
 
-        <div class="Ferramentas">
-            <div class="textos">
+        <div id="content" class="Ferramentas">
+            <div class="ContainerText">
                 <h1> Ferramentas</h1>
                 <p>Algumas ferramentas <br/>
                     que utilizo no dia a dia.</p>
             </div>
-            <div class="imagens">
-                <img src="./image/notion-logo-no-background.png" alt="Notion">
-                <img src="./image/expo-logo.png" alt="Ex[p">
-                <img src="./image/stackoverflow.png" alt="Stackoverflow">
-                <img src="./image/GitHub-Mark.png" alt="Github">
-
-                <img src="./image/Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code">
-                
-                <img src="./image/" alt="">
-                
+            <div class="ContainerImagens">
+                <img src="./assets/IconNotion.png" alt="Notion" >
+                <img src="./assets/IconExpo.png" alt="Expo">
+                <img src="./assets/IconStackoverflow.png" alt="Stackoverflow">
+                <img src="./assets/favicon.png" alt="Github">
+                <img src="./assets/IconAndroidStudio.png" alt="Android Studio">
+                <img src="./assets/IconVS.png" alt="VS Code">
             </div>
         </div>
-
-        <footer  class="BottomBar"> 
+        <footer class="BottomBar">
             <div>
             <p> Redes Sociais</p>
             <a href="https://www.linkedin.com/in/jean-carlos-fernandes-5b6bb51b2/">
-                <img  src="./image/LinkedIn_logo_initials.png" alt="Linkedin">
+                <img  src="../../assets/IconLinkedin.png" alt="Linkedin">
             </a>
             <a href="https://github.com/jeanCarl00s">
-                <img src="./image/favicon.png" alt="Github">
+                <img src="../../assets/favicon.png" alt="Github">
             </a>
             <a href="https://www.instagram.com/jean.carl00s/">
-                <img src="./image/instagram-logo-3.png" alt="Instagram">
+                <img src="../../assets/IconInstagram.png" alt="Instagram">
             </a>
             </div>
-                        
-        </footer>
-        
-        
-
+        </footer>      
     </div>
 
-    <script>
-        
-    </script>
+    <script src="./scripts.js" ></script>
 </body>
 </html>

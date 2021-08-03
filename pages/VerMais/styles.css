@@ -1,0 +1,154 @@
+/* Grid*/
+.Container {
+    width: 100%;
+    height: 100%;
+}
+.Content {
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    display: block;
+    margin-top: 2.5rem;
+}
+.ContainerFirst {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+.ContainerSecond{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    padding-bottom: 2rem
+}
+.Container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+
+    margin-bottom: 0;
+    margin-left: 1.5rem;
+}
+.Container h2 {
+    font: 'Inter' sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 1.5rem;
+}
+.ContainerText {
+    width: 100vw;
+}
+.ContainerText p {
+    font: 'Inter' sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 1.5rem 1rem 0rem 1rem;
+}
+/* Assets do computador*/
+.AssetsMac {
+    width: 70%;
+}
+.AssetsMacBook {
+    width: 70%;
+}
+.AssetsIphone {
+    width: 40%;
+}
+.ContainerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+    margin-top: 3rem;
+    width: 12.5rem;
+    height: 1.8rem;
+    background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);  
+}
+.Button a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+@media (min-width: 800px ) {
+    .Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin-top: 2.5rem;
+    }
+    .ContainerFirst {
+        width: 25%;
+        height: 100%;
+        padding: 0
+    }
+    .ContainerSecond{
+        width: 25%;
+        height: 100%;
+        padding: 0;
+        margin: 0
+    }
+    .ContainerText {
+        width: 35%;
+        height: 50%;
+        padding: 2rem;
+    }
+    .ContainerText p {
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    } 
+    .Container h1 {
+        font-size: 3rem;
+        margin-top: 3.125rem;
+        margin-left: 9.375rem;
+    }
+    .Container h2 {
+        font: 'Inter' sans-serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-left: 9.375rem;
+    }
+    .ContainerImage {
+        width: 70%;
+    }
+    /* Assets do computador*/
+    .AssetsMac {
+        width: 100%;
+    }
+    .AssetsMacBook {
+        width: 100%;
+    }
+    .AssetsIphone {
+        width: 50%;
+    }   
+    .Button{
+        margin-top: 10rem;
+        width: 12.5rem;
+        height: 1.8rem;
+    }
+    .Button a {
+        font-size: 1.1rem;
+    }
+    .Button:hover {
+        background-color: #32449F;
+    }
+}

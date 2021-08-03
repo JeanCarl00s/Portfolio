@@ -1,0 +1,87 @@
+.Frame {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.Container {
+    display: column;
+    width: 80%;
+    height: 70vh;
+    padding: 1rem;
+    border-radius: 10px;
+    background: var(--primary-color);
+}
+.ContainerImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.Container img { 
+    width: 80%;
+}
+.Containerlinks {
+    padding-top: 30%;
+    padding-left: 10%;
+}
+.Containerlinks img {
+    width: 1.5rem;
+    margin-right: auto;
+    margin-right: auto;
+    border-radius: 7px;
+}
+.Containerlinks div {
+    margin-left: auto;
+    margin-right: auto;
+}
+.Containerlinks a {
+    font: 'Inter' sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color) ;
+    text-decoration: none;
+}
+
+@media (min-width: 800px) { 
+    .Frame {
+        width: 100%;
+        height: 50rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Container {
+        display: flex;
+        width: 80rem;
+        height: 40rem;
+        border-radius: 10px;
+    }
+    .ContainerImage {
+        height: 100%;
+    }
+    .Containerlinks a {
+        font-size: 24px;     
+    }
+    .Container img { 
+        width: 500px;
+        margin-left: 50px;  
+    }
+    .Containerlinks {
+        margin: auto;
+        width: 50%;
+        padding: 0
+    }
+    .Containerlinks div {
+        padding: auto;
+        margin-top: 20px;
+    }
+    .Containerlinks img {
+        width: 40px;
+        margin-right: 10px;
+        border-radius: 7px;
+    }
+}

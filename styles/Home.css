@@ -1,0 +1,247 @@
+/* Versao Mobile */
+.GridContainer {
+    display: block;
+    padding: 0px;
+    border: 0;
+}
+/* Intro */
+.intro{
+    width: 80vw;
+    border-radius: 10px;
+    background-color: var(--primary-color); 
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    animation: aparecer 2s normal;
+} 
+.intro img {
+    width: 0;
+    opacity: 0
+}
+.bar {
+    width: 100%;
+    height: 1.87rem;
+    background-color: #635F5F;
+    border-radius: 10px 10px 0px 0px;
+    animation: aparecer 2s normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bar div {
+    width: 1rem;
+    height: 1rem; 
+    border-radius: 1rem;
+    margin: 0.23rem;
+    animation: aparecer 2s normal;
+}
+.TextTags {
+    font: 'Inter' sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #EE3C3C; 
+    line-height: 0.5;
+    animation: aparecer 2s normal;
+}
+.TextContainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2rem;
+}
+.TextContainer p,span {
+    font: 'Inter' sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 1rem;
+    line-height: 1.5;
+    animation: aparecer 2s normal;
+}
+.TextContainer div {
+    margin-left: 1.5rem;
+}
+
+/* Boxs Habilidade e Ferramentas */
+#content {
+    width: 80vw;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin-top: 6.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+#content p {
+    font: 'Inter' sans-serif ;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+#content h1 {
+    font: 'Inter' sans-serif ;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.ContainerImagens {
+    height: 100%;
+}
+.ContainerImagens img {
+    height: 3rem;   
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: 3px solid transparent;
+}
+
+/* Versao Desktop */
+@media (min-width:800px) {
+    .GridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-gap: 6.25rem;
+    }
+    .IconGit{
+        grid-column-start: 1;  /* Qual coluna comeca*/
+        grid-column-end: 1;  /* Qual coluna termina */
+        grid-row-start: 1;  /* Qual linha comeca*/
+        grid-row-end: 1;  /* Qual linha termina*/
+    } 
+    .intro{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    } 
+    .Habilidades {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+
+        grid-column-start: 2;  /* Qual coluna comeca*/
+        grid-column-end: 3;  /* Qual coluna termina */
+        grid-row-start: 3;  /* Qual linha comeca*/
+        grid-row-end: 4;  /* Qual linha termina*/
+    }
+
+    .Ferramentas {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+
+        grid-column-start: 2;  /* Qual coluna comeca*/
+        grid-column-end: 3;  /* Qual coluna termina */
+        grid-row-start: 4;  /* Qual linha comeca*/
+        grid-row-end: 5;  /* Qual linha termina*/
+    }
+
+    .BottomBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+        grid-column-start: 1;  /* Qual coluna comeca*/
+        grid-column-end: 4;  /* Qual coluna termina */
+        grid-row-start: 5;  /* Qual linha comeca*/
+        grid-row-end: 6;  /* Qual linha termina*/
+    }
+    .TextContainer {
+        grid-column-start: 1;  /* Qual coluna comeca*/
+        grid-column-end: 2;  /* Qual coluna termina */
+        grid-row-start: 2;  /* Qual linha comeca*/
+        grid-row-end: 3;  /* Qual linha termina*/
+    }
+    .ContainerImage  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-column-start: 2;  /* Qual coluna comeca*/
+        grid-column-end: 3;  /* Qual coluna termina */
+        grid-row-start: 2;  /* Qual linha comeca*/
+        grid-row-end: 3;  /* Qual linha termina*/
+    }
+    /* Styles */
+    .intro {
+        width: 95%;
+        display: grid;
+        padding: 0px;
+        border: 0;
+    }
+    .TextTags {
+        font-size: 1.6rem;
+    }
+    .TextContainer {
+        margin-left: 4rem;
+        padding: 0;
+    }
+    .TextContainer p {
+        font-size: 1.1rem;
+    }
+    .TextContainer div {
+        margin-left: 2rem;
+    }
+    .bar {
+        grid-column-start: 1;  /* Qual coluna comeca*/
+        grid-column-end: 3;  /* Qual coluna termina */
+        grid-row-start: 1;  /* Qual linha comeca*/
+        grid-row-end: 2;  /* Qual linha termina*/
+    }
+    .bar div {
+        width: 1.1rem;
+        height: 1.1rem; 
+        border-radius: 1.1rem;
+        margin: 0.4rem;
+    }
+    .bar div:hover{
+        opacity: 0.4;
+    }
+    #content {
+        width: 95%;
+        height: 15.6rem;
+        border: 3px solid #000;
+        border-radius: 10px;
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    #content h1 {
+        font-size: 2.1rem;
+    }
+    #content p {
+        font-size: 17px;
+    }
+    .ContainerImagens img {    
+        height: 6rem;   
+        border: 3px solid transparent;
+    }
+    .ContainerImagens img:hover {
+        opacity : 0.5;
+        border: 3px solid #000;
+    }
+    
+    .ContainerImagens {
+        display: column;
+        width: 60%;
+        height: 100%;
+    }
+    .ContainerText {
+        width: 40%;
+        margin-left: 3.1rem;
+        display: column;
+        align-items: center;
+    }
+    .buttonContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ContainerImage img {
+        opacity: 1;
+        width: 80%;
+        animation: aparecer 2s normal;
+    }
+    .ContainerImage {
+        width: 100%
+    }
+}
