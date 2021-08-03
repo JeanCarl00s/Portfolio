@@ -1,24 +1,45 @@
 .BottomBar {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 180px;
+    height: 11.25rem;
 
-    background-color: #262626;
+    background-color: var(--primary-color);
     border: 0;
-
     margin-top: 200px;
 }
 .BottomBar p {
     font: 'Inter' sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1rem;
     color: #635F5F;
 
     text-decoration: none;  
 }
 .BottomBar img {
-    width: 50px;
-    height: 50px;
+    width: 2rem;
+    height: 2rem;
     border-radius: 7px;
+}
+.BottomContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media (min-width: 768px) {
+    .BottomBar {
+        width: 100%;
+        height: 11.25rem;
+        margin-top: 200px;
+    }
+    .BottomBar p {
+        font-size: 24px;
+    }
+    .BottomBar img {
+        width: 3.1rem;
+        height: 3.1rem;
+    }
 }

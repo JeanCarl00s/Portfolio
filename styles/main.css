@@ -1,7 +1,16 @@
+:root { 
+    --background: #ffff;
+    --primary-color: #F5F5F5;
+    --secondary-color: #262626;
+    --text-color: #635F5F;
+}
+
 body {
     font-family: 'Inter', sans-serif;
-    background: #151515;
     border: 0;
+    margin: 0;
+    background-color: var(--background);
+    background-image: 0;
 }
 
 body::-webkit-scrollbar{
@@ -9,6 +18,6 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #262626;
+    background: var(--secondary-color);
     border-radius: 5px;
 }
