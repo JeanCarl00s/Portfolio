@@ -4,7 +4,7 @@ Version 2.1
 
 My Website portfólio create to show my projects.
 
-### Technology
+### Technologies
 - JavaScript
 - CSS
 - HTML
