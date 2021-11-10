@@ -1,0 +1,57 @@
+.Header {
+    width: 100vw;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IconContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconContainer a{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.IconGit {
+    width: 3rem;
+    height: 3rem;
+}
+
+.ContainerTopbar {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Topbar {
+    display: flex;
+    align-items: center;
+}
+
+.names {
+    height: 100%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-bottom: 3px solid transparent; 
+}
+
+.names a{   
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    text-decoration: none;  
+}
+
+a:hover{
+    opacity: 0.6;
+}
