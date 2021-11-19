@@ -1,10 +1,15 @@
-# Portfólio 
+# Portfólio V2.0
 
-Version 2.0
+#### Site criado com intuito de apresentar meu portifolio em um layout mais visual, diferente do github.
 
-My Website portfólio create to show my projects.
+### TECHS⚙️
+* HTML
+* CSS
 
-### Technology
-- JavaScript
-- Css
-- HTML
+### VERSIONS💻
+* <a href="https://github.com/JeanCarl00s/Portfolio/tree/version-1.0"> Version 1.0 </a>
+* <a href="https://github.com/JeanCarl00s/Portfolio/tree/Version-2.0"> Version 2.0 </a>
+* <a href="https://github.com/JeanCarl00s/Portfolio/tree/version-2.1" > Version 2.1 </a>
+* <a href="https://github.com/JeanCarl00s/Portfolio/tree/version-3.0" > Version 3.0 </a>
+
+<img src="https://github.com/JeanCarl00s/Portfolio/blob/Version-2.0/image/MacIMG.png" width="900px" />
