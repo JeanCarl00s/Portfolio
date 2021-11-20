@@ -1,8 +1,37 @@
 .Content {
     width: 100vw;
     height: 100vh;
+}
+
+.Container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: var(--background);
+    padding-bottom: 10rem;
+}
+
+/*Box Content*/
+
+.IMGContainer {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MacBook {
+    width: 20rem
+}
+
+.Iphone {
+    width: 10rem
+}
+
+.Iphone:hover {
+    opacity: 0.6
+}
+
+.MacBook:hover {
+    opacity: 0.6
 }
