@@ -52,12 +52,20 @@
 }
 
 .TextContainer {
-  width: 40%;
+  width: 50%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.IMGContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .TextContainer h1 {
@@ -83,7 +91,8 @@ h3:hover {
 .TextContainer p {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   line-height: 1.5;
   color: var(--text-secondary);
   animation: aparecer 2s normal;
