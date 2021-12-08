@@ -6,7 +6,55 @@
   flex-direction: column;
 }
 
+/*Box Intro*/
+.intro {
+  width: 40vw;
+  height: 25rem;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.bar {
+  width: 100%;
+  height: 1.87rem;
+  background-color: var(--secondary-color);
+  border-radius: 10px 10px 0px 0px;
+  animation: aparecer 2s normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bar div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0.4rem;
+  animation: aparecer 2s normal;
+}
+.bar div:first-child {
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+  animation: aparecer 2s normal"
+}
+.bar div{
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  animation: aparecer 2s normal;
+}
+.bar div:last-child{
+  background-color: #00b712; 
+  background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%); 
+  animation: aparecer 2s normal;
+}
+.bar div:hover {
+  opacity: 0.4;
+}
+
+<<<<<<< Updated upstream
 /*Box Intro*/
 .intro {
   width: 40vw;
@@ -55,6 +103,8 @@
   opacity: 0.4;
 }
 
+=======
+>>>>>>> Stashed changes
 .TextContainer {
   width: auto;
   height: auto;

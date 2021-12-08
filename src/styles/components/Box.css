@@ -29,6 +29,7 @@
 .bar div:first-child {
   background-color: #42378f;
   background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+<<<<<<< Updated upstream
   animation: aparecer 2s normal
 }
 .bar >div {
@@ -40,6 +41,19 @@
   background-color: #00b712; 
   background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%); 
   animation: aparecer 2s normal
+=======
+  animation: aparecer 2s normal"
+}
+.bar div{
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  animation: aparecer 2s normal;
+}
+.bar div:last-child{
+  background-color: #00b712; 
+  background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%); 
+  animation: aparecer 2s normal;
+>>>>>>> Stashed changes
 }
 .bar div:hover {
   opacity: 0.4;
