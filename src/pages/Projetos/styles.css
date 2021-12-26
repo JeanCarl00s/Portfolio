@@ -1,0 +1,29 @@
+.Content {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+}
+
+/*Box Content*/
+
+.MacBook {
+    width: 20rem
+}
+
+.Iphone {
+    width: 10rem
+}
+
+.Iphone:hover {
+    opacity: 0.6
+}
+
+.MacBook:hover {
+    opacity: 0.6
+}

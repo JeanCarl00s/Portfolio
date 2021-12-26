@@ -1,0 +1,27 @@
+.Content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background);
+}
+
+.Error {
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.Error h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--text-secondary)
+}
+.Error p, a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-secondary);
+}
