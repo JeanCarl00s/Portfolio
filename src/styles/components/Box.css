@@ -46,8 +46,8 @@
 }
 
 .BoxContainer {
-  width: 100%;
   height: 100%;
+  padding: 1rem;
   display: flex
 }
 
@@ -72,7 +72,7 @@
   font-size: 1.7rem;
   font-weight: 800;
   color: var(--text-primary);
-  margin: 0;
+ 
 }
 .TextContainer h1:hover {
   opacity: 0.5
@@ -115,3 +115,32 @@ h3:hover {
   text-decoration: none;
 }
 
+@media screen and (max-width: 900px) {
+  .Box {
+    width: 60vw;
+    height: auto;
+    margin: 8rem 1rem;
+  }
+  .BoxContainer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .TextContainer {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .IMGContainer {
+    width: 100%;
+    height: 50%;
+
+  }
+}
+@media screen and (max-width: 500px) {
+  .Box {
+    width: 90vw;
+    height: auto;
+    margin: 5rem 1rem;
+  }
+}

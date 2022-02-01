@@ -27,7 +27,7 @@
 }
 
 .ContainerTopbar {
-    width: 40vw;
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,4 +54,22 @@
 
 a:hover{
     opacity: 0.6;
+}
+
+@media screen and (max-width: 1024px) {
+    .IconGit {
+        width: 2rem;
+        height: 2rem;
+    }
+    .ContainerTopbar {
+        width: 100vw;
+        justify-content: space-around;
+    }
+    names a{   
+        font-size: 0.3rem;
+        
+    }
+    .IconContainer a{
+        font-size: 0
+    }
 }

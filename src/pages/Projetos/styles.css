@@ -12,12 +12,13 @@
 
 /*Box Content*/
 
-.MacBook {
-    width: 20rem
+.Laptop {
+    width: 95%;
+    margin: 10px
 }
 
-.Iphone {
-    width: 10rem
+.Celular {
+    width: 40%
 }
 
 .Iphone:hover {
@@ -26,4 +27,13 @@
 
 .MacBook:hover {
     opacity: 0.6
+}
+
+@media screen and (max-width: 900px) {
+    .Laptop {
+        width: 80%
+    }
+    .Celular {
+        width: 50%
+    }
 }
